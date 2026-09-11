@@ -188,7 +188,7 @@ I also learned how Kotlin can be used to build interactive console applications 
 
 The video demonstrates the execution of the Task Manager application and provides a walkthrough of the code and the Kotlin concepts used in the project.
 
-**Video:** TODO - Add YouTube video link
+**[Video:](https://app.screencastify.com/watch/4IfLTymaTllcCRvAQGpH)** TODO - Add YouTube video link
 
 ## Future Improvements
 
