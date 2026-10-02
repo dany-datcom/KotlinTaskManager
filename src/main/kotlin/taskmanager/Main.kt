@@ -1,5 +1,10 @@
+
 package taskmanager
 
+/**
+ * Runs the Task Manager application and displays the main menu.
+ * The menu continues running until the user chooses to exit.
+ */
 fun main() {
 
     val taskManager = TaskManager()
@@ -31,6 +36,11 @@ fun main() {
     }
 }
 
+/**
+ * Prompts the user for task information and creates a new task.
+ *
+ * @param taskManager the TaskManager used to store the new task.
+ */
 fun createTask(taskManager: TaskManager) {
 
     println()
@@ -54,6 +64,12 @@ fun createTask(taskManager: TaskManager) {
     println("Task created successfully!")
 }
 
+/**
+ * Retrieves and displays all tasks stored in the TaskManager.
+ * If there are no tasks, a message is displayed instead.
+ *
+ * @param taskManager the TaskManager containing the tasks to display.
+ */
 fun listTasks(taskManager: TaskManager) {
 
     println()

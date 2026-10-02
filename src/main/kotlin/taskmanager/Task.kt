@@ -1,5 +1,11 @@
+
 package taskmanager
 
+/**
+ * Represents a task in the Task Manager application.
+ *
+ * Each task contains an ID, title, description, priority, and status.
+ */
 class Task(
     val id: Int,
     var title: String,
@@ -7,3 +13,4 @@ class Task(
     var priority: String,
     var status: String = "Pending"
 )
+
